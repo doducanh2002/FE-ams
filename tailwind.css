@@ -1,0 +1,193 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --accent-1: rgba(4, 180, 93, 1);
+  --base: rgba(34, 39, 47, 1);
+  --body-large-bold-16-font-family: "Poppins", Helvetica;
+  --body-large-bold-16-font-size: 16px;
+  --body-large-bold-16-font-style: normal;
+  --body-large-bold-16-font-weight: 700;
+  --body-large-bold-16-letter-spacing: 0px;
+  --body-large-bold-16-line-height: 24px;
+  --display-sm-medium-font-family: "Lexend", Helvetica;
+  --display-sm-medium-font-size: 30px;
+  --display-sm-medium-font-style: normal;
+  --display-sm-medium-font-weight: 500;
+  --display-sm-medium-letter-spacing: 0px;
+  --display-sm-medium-line-height: 150%;
+  --display-xs-bold-font-family: "Lexend", Helvetica;
+  --display-xs-bold-font-size: 24px;
+  --display-xs-bold-font-style: normal;
+  --display-xs-bold-font-weight: 700;
+  --display-xs-bold-letter-spacing: 0px;
+  --display-xs-bold-line-height: 150%;
+  --display-xs-medium-font-family: "Lexend", Helvetica;
+  --display-xs-medium-font-size: 24px;
+  --display-xs-medium-font-style: normal;
+  --display-xs-medium-font-weight: 500;
+  --display-xs-medium-letter-spacing: 0px;
+  --display-xs-medium-line-height: 150%;
+  --display-xs-regular-font-family: "Lexend", Helvetica;
+  --display-xs-regular-font-size: 24px;
+  --display-xs-regular-font-style: normal;
+  --display-xs-regular-font-weight: 400;
+  --display-xs-regular-letter-spacing: 0px;
+  --display-xs-regular-line-height: 150%;
+  --empty-no-code: rgba(255, 255, 255, 0);
+  --grayg-100: rgba(143, 146, 161, 1);
+  --lightmodeneutralneu-0: rgba(255, 255, 255, 1);
+  --lightmodeneutralneu-900: rgba(10, 10, 10, 1);
+  --lightmodeprimarypri-500: rgba(2, 121, 113, 1);
+  --neutral-1: rgba(133, 133, 146, 1);
+  --neutral-2: rgba(163, 165, 174, 1);
+  --neutral-3: rgba(9, 10, 11, 1);
+  --neutral-4: rgba(75, 84, 93, 1);
+  --neutralstroke: rgba(241, 242, 243, 1);
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --primary-2: rgba(255, 103, 39, 1);
+  --secondary-1: rgba(249, 226, 210, 1);
+  --text-l-regular-font-family: "Lexend", Helvetica;
+  --text-l-regular-font-size: 20px;
+  --text-l-regular-font-style: normal;
+  --text-l-regular-font-weight: 300;
+  --text-l-regular-letter-spacing: 0px;
+  --text-l-regular-line-height: 170%;
+  --text-lg-light-font-family: "Lexend", Helvetica;
+  --text-lg-light-font-size: 18px;
+  --text-lg-light-font-style: normal;
+  --text-lg-light-font-weight: 300;
+  --text-lg-light-letter-spacing: 0px;
+  --text-lg-light-line-height: 170%;
+  --text-lg-medium-font-family: "Lexend", Helvetica;
+  --text-lg-medium-font-size: 18px;
+  --text-lg-medium-font-style: normal;
+  --text-lg-medium-font-weight: 500;
+  --text-lg-medium-letter-spacing: 0px;
+  --text-lg-medium-line-height: 150%;
+  --text-md-light-font-family: "Lexend", Helvetica;
+  --text-md-light-font-size: 16px;
+  --text-md-light-font-style: normal;
+  --text-md-light-font-weight: 300;
+  --text-md-light-letter-spacing: 0px;
+  --text-md-light-line-height: 150%;
+  --text-md-medium-font-family: "Lexend", Helvetica;
+  --text-md-medium-font-size: 16px;
+  --text-md-medium-font-style: normal;
+  --text-md-medium-font-weight: 500;
+  --text-md-medium-letter-spacing: 0px;
+  --text-md-medium-line-height: 150%;
+  --text-md-regular-font-family: "Lexend", Helvetica;
+  --text-md-regular-font-size: 16px;
+  --text-md-regular-font-style: normal;
+  --text-md-regular-font-weight: 400;
+  --text-md-regular-letter-spacing: 0px;
+  --text-md-regular-line-height: 150%;
+  --text-sm-light-font-family: "Lexend", Helvetica;
+  --text-sm-light-font-size: 14px;
+  --text-sm-light-font-style: normal;
+  --text-sm-light-font-weight: 300;
+  --text-sm-light-letter-spacing: 0px;
+  --text-sm-light-line-height: 150%;
+  --text-sm-medium-font-family: "Lexend", Helvetica;
+  --text-sm-medium-font-size: 14px;
+  --text-sm-medium-font-style: normal;
+  --text-sm-medium-font-weight: 500;
+  --text-sm-medium-letter-spacing: 0px;
+  --text-sm-medium-line-height: 150%;
+  --text-xs-regular-font-family: "Lexend", Helvetica;
+  --text-xs-regular-font-size: 12px;
+  --text-xs-regular-font-style: normal;
+  --text-xs-regular-font-weight: 300;
+  --text-xs-regular-letter-spacing: 0px;
+  --text-xs-regular-line-height: 150%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
